@@ -36,7 +36,7 @@ const App = {
     ...Store.import({ addOne: 'methods/increaseCounter' }),
   },
   mounted() {
-
+    ZDClient.resizeFrame(this.$el.scrollHeight);
   },
   updated() {
     ZDClient.resizeFrame(this.$el.scrollHeight);
