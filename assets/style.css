@@ -1,1 +1,27 @@
-html { overflow-y: auto; }
+html { 
+  overflow-y: auto;}
+
+.app-container__counter,
+.app-container__months,
+.app-container__days {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-container__result {
+  font-size: 64px;
+  align-self: center;
+  padding: 25px 0;
+  margin-bottom: 10px;
+}
+
+.app-container__months,
+.app-container__days {
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.app-container__months-elements,
+.app-container__days-elements {
+  margin-bottom: 10px;
+}
